@@ -1,0 +1,17 @@
+.features{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+.card{
+    width: 20% !important;
+    height: auto;
+    background-color: #26a69a !important;
+    /* color: #fff; */
+    align-self: flex-start;
+
+}

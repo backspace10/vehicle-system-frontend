@@ -1,0 +1,139 @@
+:root{
+    --body-bg:rgb(204,204,204);
+    --white:#ffffff;
+    --darkWhite:#ccc;
+    --black:#000000;
+    --dark:#615c60;
+    --themeColor:#22b8d1;
+    --pageShadow:0 0 0.5cm rgba(0,0,0,0.5);
+}
+
+/* font include*/
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600&display=swap');
+
+body{
+    background-color: var(--body-bg);
+}
+.page{
+    background:var(--white);
+    display:block;
+    margin:0 auto;
+    position:relative;
+    box-shadow: var(--pageShadow)
+    
+}
+.page[size="A4"]{
+    width: 21cm;
+    min-height: 29.7cm;
+    overflow:hidden;
+}
+.bb{
+    border-bottom:3px solid var(--darkWhite);
+}
+/* top section*/
+.top-content{
+    padding-bottom: 15px;
+}
+ .logo img{
+    height:80px;
+    /* padding-top:130px; */
+    /* padding-right: 200px; 
+    padding-top: ; */
+ }   
+.top-left p{
+    margin:0;
+}
+.top-left .graphics-path{       /*the line under logo*/
+    height:40px;
+    position: relative;
+}
+.top-left .graphics-path::before{   /*grey box  */
+    content:"";
+    height:20px;
+    background-color: var(--dark);
+    position: absolute;
+    left:15px;  /*box on blue box i.e grey box*/
+    right:0;
+    top:-15px;
+    z-index:2;
+}
+.top-left .graphics-path::after{
+    content:"";
+    height: 22px;
+    width:17px;             /*small black box in side of grey box*/
+    background:var(--black);
+    position: absolute;
+    left:6px;
+    top:-13px;
+    transition: rotate(45deg);
+}
+.top-left .graphics-path p{
+    color:var(--white);
+    height:40px;
+    left:0;
+    right:0;
+    text-transform: uppercase;
+    background-color: var(--themeColor);
+    font:26px;
+    z-index:3;
+    position: absolute;
+    padding-left: 10px;
+}
+
+/*user store section*/
+.store-user{
+    padding-bottom: 25px;
+}
+.store-user p{
+    margin:0;
+    font-weight:600;
+}
+.store-user .address{
+    font-weight: 400;
+}
+.store-user h2{
+    color:var(--themeColor);
+    font-family: 'Rajdhani',sans-serif;
+}
+.extra-info p span{
+    font-weight: 400;
+}
+thead{
+    color:var(--white);
+    background: var(--themeColor);
+}
+.table td,
+.table th{
+    text-align:center;
+    vertical-align: middle;
+}
+tr th:first-child,
+tr td:first-child{
+    text-align: left;
+}
+.media h5.title{
+    font-weight: 600;
+}
+/*balance info*/
+
+.balance-info .table td,
+.balance-info .table th{
+    padding:0;
+    border:0;
+}
+
+.balance-info tr td:first-child{
+    font-weight:600;
+}
+tfoot{
+    border-top:2px solid var(--darkWhite);
+}
+tfoot td{
+    font-weight: 600;
+}
+footer{
+    text-align: center;
+}
+footer hr{
+    border-top: 3px solid var(--darkWhite);
+}

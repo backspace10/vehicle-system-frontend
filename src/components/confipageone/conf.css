@@ -1,0 +1,20 @@
+/* 
+.img-bg{
+  
+    width: 98%;
+    
+    z-index: -1;
+    background:  linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.1)) ,url(../../assets/55.jpeg) no-repeat center center fixed;  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   
+
+}  */
+
+
+.my-card{
+max-width: 80%;
+}
+

@@ -1,0 +1,13 @@
+.custom-img{
+    height: 50%;
+}
+
+
+
+/* buttons */
+.features-btns{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

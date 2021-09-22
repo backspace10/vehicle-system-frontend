@@ -1,0 +1,11 @@
+
+.carousel img {
+    display:block;
+    height: 90vh;
+    width: 100vw;
+    /* padding: 30px; */
+    /* margin: 40px; */
+    /* border-radius: 50%; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+  }
