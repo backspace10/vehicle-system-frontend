@@ -61,6 +61,7 @@ function RegisterScreen() {
 
     if (password !== confPassword) {
       setMessage("Passwords do not match");
+      alert("Passwords do not match");
     } else {
       dispatch(register(userName, name, email, password, address, contact));
       setMessage("User Register Successfully");

@@ -56,11 +56,11 @@ function Header() {
               </Link>
             </li>
             <li class="nav-item">
-              <Link class="nav-link" to="/home">
+              <Link class="nav-link active" to="/home">
                 Dashboard
               </Link>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <Link class="nav-link" to="/about">
                 About us
               </Link>

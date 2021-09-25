@@ -11,6 +11,7 @@ import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import Invoice from "./components/invoice/Invoice";
 import OfflinePage from "./components/offlinePage/OfflinePage";
+import PageNotFound from "./components/pnf/PageNotFound";
 import Welcome from "./components/Welcome";
 import HomeScreen from "./screens/HomeScreen";
 import LoginScreen from "./screens/LoginScreen";
@@ -34,6 +35,7 @@ function App() {
           <Route path="/conf" component={ConfTwo} exact />
           <Route path="/confthree" component={ConfPageThree} exact />
           <Route path="/invoice" component={Invoice} exact />
+          <Route path="*" component={PageNotFound} />
         </Switch>
 
         <Footer />

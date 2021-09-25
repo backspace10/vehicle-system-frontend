@@ -158,12 +158,68 @@ const ConfTwo = () => {
         </div>
       </div>
 
+      {/* <div className="container">
+        <div className="row">
+          
+          <div className="col-md-10" >
+            
+          </div>
+
+        </div>
+
+      </div> */}
+
       {/* specifications */}
-      <div className="row">
+
+    {/* <div className="container">
+      <div className="feature">
+        <div className="item">
+            <strong>Standard Features</strong>
+            {specfList.map((item, index) => (
+                  <p className="card-text" key={index}>
+                    {item}
+                  </p>
+            ))}
+        </div>
+
+        <div className="item">
+            <strong>Default Features</strong>
+
+            {defaultSpec.map((item, index) => (
+                  <p className="card-text" key={index}>
+                    {item}
+                  </p>
+            ))}
+        </div>
+
+        <div className="item">
+            <strong>Interior Features</strong>
+          
+            {interiorList.map((item, index) => (
+                  <p className="card-text" key={index}>
+                    {item}
+                  </p>
+            ))}
+        </div>
+
+        <div className="item">
+            <strong>Interior Features</strong>
+             {exteriorList.map((item, index) => (
+                  <p className="card-text" key={index}>
+                    {item}
+                  </p>
+              ))}
+        </div>
+
+      </div>
+    </div> */}
+
+
+       <div className="row">
         <div className="row mt-5">
           <div className="features">
             <div className="card text-white mb-3">
-              <div className="card-header ">
+              <div className="card-header">
                 <strong>Standard Features</strong>
               </div>
               <div className="card-body">

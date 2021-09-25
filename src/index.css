@@ -6,7 +6,7 @@
 
 
 
-h1{
+/* h1{
 font-size: 1.8rem;
 padding:1rem 0;
 }
@@ -17,8 +17,9 @@ padding:0.5rem 0;
 }
 
 h3{
-  padding:1rem 0;
+  padding:1rem 0; 
 }
+*/
 
 /* .carousel{
   height: 40% !important;
@@ -71,15 +72,45 @@ body{
 
 
 
-
 .welcome{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 76vh;
-  font-size: 25px;
+  height: 79vh;
+  font-size: 40px;
   font-weight: 600;
+
+  color: #fff;
+  /* width: 100vw; */
+  /* height: 80vh; */
+  background:  linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.1)) ,url(./assets/wallpaper.jpg) no-repeat center center fixed ;  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* position: relative; */
 }
+
+/* .video-bag{
+ 
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+} */
+
+
+
+
+
 
 
 /* login page */

@@ -206,6 +206,7 @@ const ConfOne = () => {
       </div>
       <div className="card-body text-primary">
         <form onSubmit={handleSubmit}>
+          <label className="text-white">Segment</label>
           <Select
             value={selectedSegName}
             onChange={(item) => {
@@ -220,6 +221,7 @@ const ConfOne = () => {
             className="pb-3"
           />
 
+          <label className="text-white">Quantity</label>
           <input
             type="number"
             placeholder="Enter quantity"
@@ -231,6 +233,7 @@ const ConfOne = () => {
             }}
           />
 
+          <label className="text-white">Manufacturer</label>
           <Select
             value={selectedManuf}
             onChange={(item) => {
@@ -245,6 +248,7 @@ const ConfOne = () => {
             className="pb-3"
           />
 
+          <label className="text-white">Model</label>
           <Select
             value={selectedModel}
             onChange={(item) => {

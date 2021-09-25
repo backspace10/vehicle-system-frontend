@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer>
       <div className="row footer">
-        <div className="col text-center py-4">
+        <div className="col text-center py-3">
           Copyright &copy; Team Hexagon
         </div>
       </div>
